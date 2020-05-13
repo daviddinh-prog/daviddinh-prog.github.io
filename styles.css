@@ -23,7 +23,7 @@ body {
     background-size: cover;
     background-position: center center;
     text-align: center; /* Phillip moved text-align CSS code to the body to apply for all text */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* David: applied font to all text */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* David: applied font to all text */
   }
   .one {
     border-style: solid;
