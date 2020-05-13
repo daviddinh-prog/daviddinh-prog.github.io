@@ -66,7 +66,7 @@ body {
   }
   .categories { /* Jason Estrada .categories comes from class="categories", font is changed to Arial */
     /* David: also took class and applied it to some of my HTML */
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     margin-left: auto;
     margin-right: auto;
@@ -74,20 +74,20 @@ body {
     text-align: center;
   }
   .Subject { /* Jason Estrada .subject is connected with class="Subject", font is changed to Arial, color changed */
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     color: rgb(185, 40, 185);
   }
   .whitetext { /* Jason Estrada This CSS is connected with the white text in Jason Estrada box */
     color: white;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: large;
   }
   .headlines { /* Jason Estrada CSS class="headlines" connected with the lines that in between the tables and first image */ 
     color: rgb(0, 225, 255);
     font-size: x-large;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
   }
   #Topic { /* Jason Estrada word "Subject" color*/
     color: rgb(38, 219, 219);
@@ -123,7 +123,7 @@ body {
     padding: 20px;
     border: 3px solid black;
     /* David: added background color to webpage and added translucency to make text more visible */
-    background-color: rgba(196, 146, 230);
+    background-color: rgb(167, 109, 233);
     border-radius: 15px;
     width: 55%;
     /* David: stylized font for more personality in words */
