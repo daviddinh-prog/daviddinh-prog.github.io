@@ -139,4 +139,7 @@ body {
   }
 
   /* Bootstrap Code */
-  
+  .card-img {
+    width: 200;
+    height: 500;
+  }
