@@ -46,7 +46,7 @@
 
 <!-- Jason added Boostrap NavBar Top of the Page-->
 <!-- Logo and text -->
-<nav class="navbar navbar-dark bg-dark"> <!--change light to dark-->
+<nav class="navbar navbar-expand-sm bg-dark"><!--change light to dark-->
     <a class="navbar-brand" href="https://daviddinh-prog.github.io/">
       <img src="Boba_Colored.jpg" class="d-inline-block align-top"
       alt="logo" style="width: 40px;">
@@ -56,20 +56,22 @@
     </a>
     <!--David: Links to team's webpages -->
     <!--David: collapses navbar-->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar"></div>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="https://jasonestradav.github.io/">HTML</a> <!--Hiroki added three stages of our page-->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://naevir.github.io/">CSS</a> <!--Hiroki: CSS to phillips-->
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://daviddinh-prog.github.io/">Bootstrap</a> <!--Hiroki: bootstrap to david's-->
-            </li> <!--Hiroki: later we have to add Java to Hiroki's-->
+    
+        <ul class="navbar-nav"><!--hiroki added navibar-->
+          <li class="nav-item">
+            <a class="nav-link" href="https://jasonestradav.github.io/" style="color:white">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://naevir.github.io/" style="color:white">CSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://daviddinh-prog.github.io/" style="color:white">Bootstrap</a>
+          </li>
         </ul>
-    </div>    
+    
+    <br>
 </nav>
+
 
 <!-- Jason Estrada Work -->
 <div class="JasonDivs"> <!-- Connection to CSS .JasonDivs (Jason Estrada)-->
@@ -81,44 +83,23 @@
 </span>
 <!--David: changes table so that ol tags are gone.-->
     
-<!--Jason added a grid in replace of the table.-->
-    <div class="row">
-      <div class="col">Subject</div>
-      <div class="col">Description</div>
-      <div class="col">Results</div>
-    </div>
-
-    <div class="row">
-        <div class="col">Music</div>
-        <div class="col">Since I was 9 years old, I have been playing musical instruments</div>
-        <div class="col">I have discovered an application platform that gives you the freedom to create sheet music like the ones I read in Middle and High School</div>
-    </div>
-
-
-    <div class="row">
-        <div class="col">Adobe XD</div>
-        <div class="col">Recently I discovered the platform of Adobe XD that let's you create conecept designs for web and mobile applications and many more</div>
-        <div class="col">Through a "Masterclass" from one of the Adobe XD experts I was able to create an animation that can be displayed in live streams that promoto the social media</div>
-      </div>
-      
-      <!--
-       <table> 
+        <table>
             <tr>
-                <td class="categories" id="Topic">Subject</td>       Section with the table, first three lines 
-                <td class="categories">Description</td>       49-51 are connected with CSS .categories (Jason Estrada)
+                <td class="categories" id="Topic">Subject</td> <!-- Section with the table, first three lines -->
+                <td class="categories">Description</td> <!--49-51 are connected with CSS .categories (Jason Estrada)-->
                 <td class="categories">Results</td>
             </tr>
             <tr>
-                <td class="Subject">Music</td>          Section with the table, following three lines 
+                <td class="Subject">Music</td> <!-- Section with the table, following three lines -->
                 <td>Since I was 9 years old, I have been playing musical instruments</td>
                 <td>I have discovered an application platform that gives you the freedom to create sheet music like the ones I read in Middle and High School</td>
             </tr>
             <tr>
-                <td class="Subject">Adobe XD</td>              Section with the table, last three lines 
+                <td class="Subject">Adobe XD</td> <!-- Section with the table, last three lines -->
                 <td>Recently I discovered the platform of Adobe XD that let's you create conecept designs for web and mobile applications and many more</td>
                 <td>Through a "Masterclass" from one of the Adobe XD experts I was able to create an animation that can be displayed in live streams that promoto the social media</td>
             </tr>
-        </table>  -->
+        </table>
 
         <table class="center"> <!-- Jason Estrada Second table with basic Spanish words -->
             <h2 class="headlines">Basic Spanish/Español Words</h2>
@@ -283,7 +264,7 @@
       <img src=https://www.rittor-music.co.jp/yokuwakaru/images/seminar/ukulele1-3.png alt="Trulli" width="500" height="333">
     
         <h2>Chords</h2>
-        <div class="row">
+        <div class="d-flex-coloum">
             <table class="tablehi"> <!--hiroki adding class-->
                         <div class="col">
                             <tr>
@@ -417,7 +398,6 @@
                 <li>Northsbest</li>  
             </ol>
         <h2 style="color:#ff7300">Thanks for tuning in!</h2>
-        <a href="#" style="background-color:navy; color: white;" class="btn btn-info" role="button" >Back to Top</a> <!-- Phillip: Added button that references back to the top -->
 </div>
 
 </body>
