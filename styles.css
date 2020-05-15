@@ -145,3 +145,8 @@ body {
     width: 200;
     height: 500;
   }
+  .row {
+    background-color: white;
+    border-radius: 10px;
+
+  }
