@@ -141,12 +141,8 @@ body {
   }
 
   /* Bootstrap Code */
-  .card-img {
-    width: 200;
-    height: 500;
-  }
-  .row {
+  .row { /*Jason added a CSS for the row class */
     background-color: white;
-    border-radius: 10px;
-    margin-bottom: 1em;
+    border-style: solid;
+    text-align: center;
   }
