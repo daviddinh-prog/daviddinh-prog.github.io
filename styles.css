@@ -103,7 +103,9 @@ body {
     /* Hiroki: stylized each of my tables */
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    border:1;
+    box-align:center; 
   }
   .tableh { 
     display: block;
