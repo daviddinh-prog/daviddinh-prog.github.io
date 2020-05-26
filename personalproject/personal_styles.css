@@ -1,8 +1,9 @@
 body {
-    background-image: url("seattle.jpg"); /* Phillip created a background image and made it responsive */
+    background-image: url("distort.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    text-align: center; /* Phillip moved text-align CSS code to the body to apply for all text */
+    text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
+}
