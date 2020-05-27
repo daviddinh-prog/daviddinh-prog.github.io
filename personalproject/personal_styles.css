@@ -20,10 +20,10 @@ body {
     text-emphasis: bold;
 }
 .medium {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     border: 5px solid black;
     background-color: rgb(167, 249, 255);
