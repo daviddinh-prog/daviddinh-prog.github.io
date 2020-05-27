@@ -29,4 +29,5 @@ body {
     background-color: rgb(167, 249, 255);
     border-radius: 30px;
     width: 40%;
+    float: left;
 }
