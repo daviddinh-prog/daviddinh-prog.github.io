@@ -11,13 +11,13 @@ body {
     background-color: black;
     display: block;
     text-decoration: none;
+    padding: 30px;
     width: 200px;
     float: left;
 }
 .vertical-menu {
-    width: 50px;
+    width: 200px;
   }
-  
   .vertical-menu a {
     background-color: black;
     color: white;
@@ -25,15 +25,14 @@ body {
     padding: 15px;
     text-decoration: none;
   }
-  
   .vertical-menu a:hover {
     background-color: rgb(152, 212, 230);
   }
-  
   .vertical-menu a.active {
     background-color: rgb(255, 238, 0);
     color: black;
   }
+
 .jumbotron {
     margin-top: 20px;
     margin-bottom: 20px;
