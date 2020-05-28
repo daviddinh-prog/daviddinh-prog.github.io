@@ -11,12 +11,12 @@ body {
     background-color: black;
     display: block;
     text-decoration: none;
-    padding: 30px;
+    padding: 10px;
     width: 200px;
     float: left;
 }
 .vertical-menu {
-    width: 200px;
+    width: 180px;
   }
   .vertical-menu a {
     background-color: black;
@@ -58,4 +58,8 @@ body {
     background-color: rgba(209, 252, 255, 0.884);
     width: 45%;
     float: right;
+}
+
+.card-title {
+    color: rgb(34, 32, 134);
 }
