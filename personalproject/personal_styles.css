@@ -10,9 +10,8 @@ body {
 .intro {
     background-color: black;
     display: block;
-    padding: 30px;
     text-decoration: none;
-    width: 220px;
+    width: 200px;
     float: left;
 }
 .vertical-menu {
