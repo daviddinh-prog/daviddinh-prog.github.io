@@ -19,7 +19,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     background-color: rgba(209, 252, 255, 0.884);
     width: 45%;
     float: left;
@@ -28,7 +28,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     background-color: rgba(209, 252, 255, 0.884);
     width: 45%;
     float: right;
