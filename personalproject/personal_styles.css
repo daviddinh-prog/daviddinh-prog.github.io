@@ -15,6 +15,9 @@ body {
     width: 200px;
     float: left;
 }
+.height-full {
+    height: 100%;
+}
 .vertical-menu {
     width: 180px;
     margin-top: 20px;
