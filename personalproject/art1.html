@@ -24,11 +24,28 @@
           <a href="#" style="color:white">Paintings</a>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
-        <h1>Hi!</h1>
-        <h2>I'm David Dinh!</h2>
-        <h3>Visual Artist and Graphic Designer</h3>
-        <img src="david.png" class="thumbnail" alt="Avatar" width="40%" height="40%">
-      </div>
+      <script>
+      function openCity(evt, TabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
+        <div class="jumbotron jumbotron-fluid">
+          <h1>Hi!</h1>
+          <h2>I'm David Dinh!</h2>
+          <h3>Visual Artist and Graphic Designer</h3>
+          <img src="david.png" class="thumbnail" alt="Avatar" width="40%" height="40%">
+        </div>
     </body>
 </html>
