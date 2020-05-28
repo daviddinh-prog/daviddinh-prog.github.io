@@ -20,6 +20,8 @@ body {
     text-emphasis: bold;
 }
 .artleft {
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     border: 5px solid black;
     background-color: rgba(209, 252, 255, 0.884);
@@ -27,6 +29,8 @@ body {
     float: left;
 }
 .artright {
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     border: 5px solid black;
     background-color: rgba(209, 252, 255, 0.884);
