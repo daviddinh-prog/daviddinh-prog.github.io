@@ -14,6 +14,7 @@ body {
     padding: 10px;
     width: 200px;
     float: left;
+    height: auto;
 }
 .vertical-menu {
     width: 180px;
