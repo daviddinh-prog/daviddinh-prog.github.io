@@ -8,7 +8,6 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
     height: 100%;
     display: flex;
-    flex-direction: column;
 }
 .intro {
     background-color: black;
