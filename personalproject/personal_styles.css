@@ -24,6 +24,7 @@ body {
     width: 180px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
   }
   .vertical-menu a {
     background-color: black;
@@ -88,7 +89,7 @@ body {
     text-align: center;
     transition: all 0.3s ease;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
   }
   
   /* Style the social media icons with color, if you want */
