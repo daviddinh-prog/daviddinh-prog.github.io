@@ -7,6 +7,7 @@ body {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     height: 100%;
+    flex-shrink: 0;
 }
 .intro {
     background-color: black;
