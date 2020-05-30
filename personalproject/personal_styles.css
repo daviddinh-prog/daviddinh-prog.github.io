@@ -41,7 +41,7 @@ body {
   }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(159, 241, 255, 0.800), rgb(116, 188, 236, 0.800));
+    background-image: linear-gradient(rgba(175, 243, 255, 0.8), rgb(116, 188, 236, 0.8));
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
