@@ -19,6 +19,7 @@ body {
     float: left;
     flex-direction: column;
     margin: 0;
+    height: 100%;
 }
 
 .vertical-menu {
