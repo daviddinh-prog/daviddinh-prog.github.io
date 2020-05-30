@@ -62,7 +62,7 @@ body {
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
     background-color: rgba(209, 252, 255, 0.884);
-    width: 45%;
+    width: 35%;
     float: left;
 }
 .artright {
@@ -71,7 +71,7 @@ body {
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
     background-color: rgba(209, 252, 255, 0.884);
-    width: 45%;
+    width: 35%;
     float: right;
 }
 
