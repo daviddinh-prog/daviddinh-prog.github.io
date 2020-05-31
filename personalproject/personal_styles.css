@@ -22,7 +22,8 @@ body {
 }
 
 .navbar {
-  height: 300%;
+    height: 300%;
+    margin: 0;
 }
 
 .vertical-menu {
@@ -30,6 +31,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    margin: 0;
   }
   .vertical-menu a {
     background-color: black;
