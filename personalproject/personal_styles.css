@@ -99,6 +99,7 @@ body {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -106,10 +107,9 @@ body {
     padding-top: 20px;
   }
   
-  /* Style the icon bar links */
-  /* Style all font awesome icons */
+/* Style the icon bar links */
 
-.fa {
+.fa .icon-bar a{
   padding: 20px;
   font-size: 30px;
   width: 40px;
@@ -125,7 +125,7 @@ body {
   
   /* Style the social media icons with color */
   .icon-bar a:hover {
-    background-color: rgb(255, 251, 0);
+    background-color: white;
   }
   
   .facebook {
