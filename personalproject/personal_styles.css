@@ -44,12 +44,12 @@ body {
     margin: 0;
   }
   .vertical-menu a:hover {
-    background-color: rgb(152, 212, 230);
+    background-color: rgb(42, 198, 245);
     transition: all 0.3s ease;
     color: black;
   }
   .vertical-menu a.active {
-    background-color: rgb(248, 233, 16);
+    background-color: rgb(56, 206, 144);
     color: black;
   }
 
