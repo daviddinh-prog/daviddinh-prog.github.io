@@ -49,7 +49,7 @@ body {
     color: black;
   }
   .vertical-menu a.active {
-    background-color: rgb(56, 206, 144);
+    background-color: rgb(78, 231, 167);
     color: black;
   }
 
@@ -169,7 +169,7 @@ body {
     margin-bottom: 20px;
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
-    background-color: rgba(123, 218, 255, 0.884);
+    background-color: rgba(140, 222, 255, 0.884);
     width: auto;
     float: center;
     font-size: 0.8em;
