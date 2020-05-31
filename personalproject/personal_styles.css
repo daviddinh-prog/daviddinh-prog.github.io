@@ -55,10 +55,10 @@ body {
 
 .jumbotron {
     background-image: linear-gradient(rgba(225, 250, 255, 0.678), rgba(99, 156, 194, 0.678));
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 220px;
-    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 240px;
+    margin-right: 40px;
     padding: 20px;
     max-width: auto;
 }
@@ -172,6 +172,6 @@ body {
     background-color: rgba(123, 218, 255, 0.884);
     width: auto;
     float: center;
-    font-size: 2em;
+    font-size: 0.8em;
   }
   
