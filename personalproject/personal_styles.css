@@ -96,9 +96,10 @@ body {
     float: right;
 }
 
-.artleft-glass .artright-glass {
+.card-img-top {
   position: absolute;
   border-style: none;
+  cursor: none;
   height: 200px;
   width: 230px;
   clip: rect(0px 100px 75px 0px);
