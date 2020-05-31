@@ -63,6 +63,10 @@ body {
     width: 70%;
     align-self: auto;
 }
+
+#main {
+  margin-left: 200px;
+}
 .artleft {
     margin-left: 20px;
     margin-right: 20px;
