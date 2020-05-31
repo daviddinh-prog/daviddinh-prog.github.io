@@ -61,12 +61,14 @@ body {
     margin-right: auto;
     padding: 30px;
     width: 70%;
+    float: left;
 }
 
 .main {
     margin-left: 200px;
     padding: 0px 10px;
 }
+
 .artleft {
     margin-left: 20px;
     margin-right: 20px;
