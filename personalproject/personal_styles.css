@@ -54,14 +54,15 @@ body {
   }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(225, 250, 255, 0.8), rgba(99, 156, 194, 0.8));
+    background-image: linear-gradient(rgba(225, 250, 255, 0.678), rgba(99, 156, 194, 0.678));
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
     margin-right: auto;
     padding: 30px;
-    width: 70%;
+    width: fill;
     float: left;
+
 }
 
 .main {
@@ -162,7 +163,7 @@ body {
     box-shadow: 0 0 2px 1px rgba(1, 82, 109, 0.5); /* dark blue shadow */
   }
 
-  .bio {
+  .desc-container {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -170,5 +171,7 @@ body {
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
     background-color: rgba(118, 166, 255, 0.884);
+    width: fill;
+    float: center;
   }
   
