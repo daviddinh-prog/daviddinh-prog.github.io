@@ -41,8 +41,10 @@ body {
   .vertical-menu a {
     background-color: black;
     color: white;
+    padding: 15px;
     display: block;
     text-decoration: none;
+    margin: 0;
   }
   .vertical-menu a:hover {
     background-color: rgb(152, 212, 230);
@@ -62,6 +64,7 @@ body {
     margin-right: auto;
     padding: 30px;
     width: 70%;
+    align-self: auto;
 }
 .artleft {
     margin-left: 20px;
