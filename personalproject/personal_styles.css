@@ -19,7 +19,11 @@ body {
     float: left;
     flex-direction: column;
     margin: 0;
+}
+
+.navbar {
     height: 100%;
+    margin: 0;
     display: block;
     position: fixed;
     z-index: 1;
