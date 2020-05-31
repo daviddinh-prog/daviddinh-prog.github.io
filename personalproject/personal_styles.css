@@ -115,7 +115,7 @@ body {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    text-align: center;
+    float: center;
   }
   
 /* Style the icon bar links */
@@ -127,6 +127,7 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  float: center;
 }
 
 /* Add a hover effect if you want */
