@@ -44,7 +44,7 @@ body {
     margin: 0;
   }
   .vertical-menu a:hover {
-    background-color: rgb(42, 198, 245);
+    background-color: rgb(56, 207, 253);
     transition: all 0.3s ease;
     color: black;
   }
@@ -54,7 +54,7 @@ body {
   }
 
 .jumbotron {
-    background-image: linear-gradient(rgba(175, 243, 255, 0.8), rgba(99, 156, 194, 0.8));
+    background-image: linear-gradient(rgba(225, 250, 255, 0.8), rgba(99, 156, 194, 0.8));
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
@@ -70,6 +70,7 @@ body {
 }
 
 .artleft {
+    position: relative;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -81,6 +82,7 @@ body {
     float: left;
 }
 .artright {
+    position: relative;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -92,6 +94,25 @@ body {
     float: right;
 }
 
+.artleft-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+
+.artright-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
 .card-title {
     color: rgb(34, 32, 134);
 }
