@@ -130,7 +130,7 @@ body {
   
 /* Style the icon bar links */
 
-.fa .icon-bar a{
+.fa {
   padding: 20px;
   font-size: 30px;
   width: 40px;
