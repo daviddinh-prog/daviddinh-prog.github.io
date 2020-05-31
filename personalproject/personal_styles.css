@@ -110,7 +110,7 @@ body {
     color: rgb(34, 32, 134);
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* Fixed/sticky icon bar (horizontally aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
     top: 50%;
@@ -118,7 +118,6 @@ body {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     text-align: center;
-    padding-top: 20px;
   }
   
 /* Style the icon bar links */
