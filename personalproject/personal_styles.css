@@ -53,16 +53,13 @@ body {
     color: black;
   }
 
-.jumbotron {
+.jumbotron .jumbotron-fluid {
     background-image: linear-gradient(rgba(225, 250, 255, 0.678), rgba(99, 156, 194, 0.678));
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 200px;
     margin-right: auto;
     padding: 30px;
-    width: auto;
-    float: left;
-
 }
 
 .main {
