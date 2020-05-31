@@ -44,7 +44,7 @@ body {
     margin: 0;
   }
   .vertical-menu a:hover {
-    background-color: rgb(56, 207, 253);
+    background-color: rgb(81, 161, 253);
     transition: all 0.3s ease;
     color: black;
   }
@@ -57,7 +57,7 @@ body {
     background-image: linear-gradient(rgba(225, 250, 255, 0.678), rgba(99, 156, 194, 0.678));
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 220px;
     margin-right: auto;
     padding: 30px;
 }
@@ -161,7 +161,7 @@ body {
   }
 
   .desc-container {
-    margin-left: 20px;
+    margin-left: 220px;
     margin-right: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
