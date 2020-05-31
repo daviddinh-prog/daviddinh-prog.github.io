@@ -96,7 +96,7 @@ body {
     float: right;
 }
 
-#card-img-top {
+.card-img-top {
   position: absolute;
   border-style: none;
   cursor: none;
