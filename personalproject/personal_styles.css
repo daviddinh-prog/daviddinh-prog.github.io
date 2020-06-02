@@ -97,7 +97,7 @@ body {
 
 .card-img-top-glass {
   position: absolute;
-  border-style: none;
+  border-style: 3px black;
   cursor: none;
   height: 200px;
   width: 230px;
