@@ -55,7 +55,7 @@ body {
     background-image: linear-gradient(rgba(225, 250, 255, 0.678), rgba(99, 156, 194, 0.678));
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 240px;
+    margin-left: 40px;
     margin-right: 40px;
     padding: 20px;
     max-width: auto;
@@ -114,7 +114,7 @@ body {
   }
 
   .desc-container {
-    margin-left: 240px;
+    margin-left: 40px;
     margin-right: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
