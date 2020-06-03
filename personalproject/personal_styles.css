@@ -76,19 +76,8 @@ body {
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
     background-color: rgba(224, 255, 253, 0.788);
-    width: 33%;
+    width: 45%;
     float: left;
-}
-.artcenter {
-    position: relative;
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 5px solid rgb(255, 255, 255);
-    background-color: rgba(224, 255, 253, 0.788);
-    width: 33%;
-    float: center;
 }
 .artright {
     position: relative;
@@ -98,7 +87,7 @@ body {
     padding: 10px;
     border: 5px solid rgb(255, 255, 255);
     background-color: rgba(224, 255, 253, 0.788);
-    width: 33%;
+    width: 45%;
     float: right;
 }
 
