@@ -31,6 +31,7 @@ body {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: fixed;
   }
   .vertical-menu a {
     background-color: black;
