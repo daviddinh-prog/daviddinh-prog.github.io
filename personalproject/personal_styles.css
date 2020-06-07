@@ -71,8 +71,8 @@ body {
 .artleft {
   float: left;
   width: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
@@ -83,8 +83,8 @@ body {
 .artright {
   float: right;
   width: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
