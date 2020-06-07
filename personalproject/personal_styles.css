@@ -67,6 +67,18 @@ body {
     padding: 0px 10px;
 }
 
+.img1 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.img2 {
+  float: right;
+}
+
 /* Create two equal columns that floats next to each other */
 .artleft {
   float: left;
