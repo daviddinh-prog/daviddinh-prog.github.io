@@ -68,7 +68,7 @@ body {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+.artleft {
   float: left;
   width: 50%;
   margin-left: 20px;
@@ -80,11 +80,16 @@ body {
   background-color: rgba(224, 255, 253, 0.788);
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.artright {
+  float: left;
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(224, 255, 253, 0.788);
 }
 
 .card-title {
