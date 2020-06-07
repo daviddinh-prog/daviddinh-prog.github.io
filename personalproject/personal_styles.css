@@ -94,15 +94,6 @@ body {
     float: right;
 }
 
-.card-img-top-glass {
-  position: absolute;
-  border-style: 3px black;
-  cursor: none;
-  height: 200px;
-  width: 230px;
-  clip: rect(0px 100px 75px 0px);
-}
-
 .card-title {
     color: rgb(34, 32, 134);
 }
