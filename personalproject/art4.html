@@ -20,9 +20,27 @@
             height: 100%;
             margin: 0;
           }
+          html {
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            -moz-opacity: 0;
+            -khtml-opacity: 0;
+            opacity:0;
+            -webkit-transition: opacity 1s;
+            -moz-transition: opacity 1s;
+            -o-transition: opacity 1s;
+            -ms-transition: opacity 1s;
+            transition: opacity 1s;
+          }
         </style>
     </head>
     <body>
+      <!--fade in effect while loading body on screen-->
+      <script>
+        window.onload = function() {
+          document.documentElement.style.opacity = '1';
+        }
+        </script>
         <!--Navbar with dropdown menu-->
         <div class="sidenav">
             <!--Brand comes first-->
@@ -32,7 +50,7 @@
             <!--Menu tabs-->
             <div class="vertical-menu">
               <a href="https://daviddinh-prog.github.io/personalproject/art1.html" style="color:white">Home</a>
-              <a href="https://daviddinh-prog.github.io/personalproject/art5.html" style="color:white">Storytime</a>
+              <a href="https://daviddinh-prog.github.io/personalproject/art5.html" style="color:white">Story & Bio</a>
               <a href="https://daviddinh-prog.github.io/personalproject/art2.html" style="color:white">Abstract</a>
               <a href="https://daviddinh-prog.github.io/personalproject/art3.html" style="color:white">Portraits</a>
               <a href="https://daviddinh-prog.github.io/personalproject/art4.html" class="active" style="color:white">Paintings</a>
