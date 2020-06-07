@@ -69,7 +69,6 @@ body {
 
 .artleft {
     position: relative;
-    overflow: hidden;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -82,7 +81,6 @@ body {
 }
 .artright {
     position: relative;
-    overflow: hidden;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -119,4 +117,3 @@ body {
     display: block;
   }
 
-  
