@@ -132,7 +132,7 @@ body {
     background-color: #008CBA;
   }
   
-  .container:hover .overlay {
+  .artleft:hover .artright:hover .overlay {
     opacity: 1;
   }
   
