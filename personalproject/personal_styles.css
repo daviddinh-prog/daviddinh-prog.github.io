@@ -117,10 +117,6 @@ body {
     display: block;
   }
 
-.image {
-  display: block;
-}
-
 .overlay {
   position: absolute;
   bottom: 100%;
