@@ -69,6 +69,7 @@ body {
 
 .artleft {
     position: relative;
+    overflow: hidden;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -81,6 +82,7 @@ body {
 }
 .artright {
     position: relative;
+    overflow: hidden;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -129,7 +131,7 @@ body {
   transition: .5s ease;
 }
 
-.container:hover .overlay {
+.artleft:hover .artright:hover .overlay {
   bottom: 0;
   height: 100%;
 }
