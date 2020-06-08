@@ -159,10 +159,10 @@ body {
 
 .img-container-glass {
   position: absolute;
+  z-index: 3;
   border: 3px solid #000;
   cursor: none;
   /*Set the size of the magnifier glass:*/
   width: 150px;
   height: 150px;
-  display:none; /* hide the magnifier by default */
 }
