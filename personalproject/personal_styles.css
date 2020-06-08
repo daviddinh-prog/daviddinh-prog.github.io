@@ -165,4 +165,10 @@ body {
   /*Set the size of the magnifier glass:*/
   width: 150px;
   height: 150px;
+  opacity:0;
+  pointer-events:none;
+}
+a:hover .img-container-glass{
+  opacity:1;
+  pointer-events:initial;
 }
