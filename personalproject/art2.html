@@ -33,6 +33,7 @@
           }
         </style>
         <script>
+          /* magnify hover */
           function magnify(imgID, zoom) {
             var img, glass, w, h, bw;
             img = document.getElementById(imgID);
@@ -87,6 +88,19 @@
               return {x : x, y : y};
             }
           }
+          /* Initiate Magnify Function
+          with the id of the image, and the strength of the magnifier glass:*/
+          magnify("image", 3);
+
+          // Show the magnifier when hover the container
+          $('.img-container').mouseover(function(){
+            $('.img-container-glass').show();
+          });
+
+          // Hide the magnifier when leave the container
+          $('.img-container').mouseout(function(){
+            $('.img-container-glass').hide();
+          });
           </script>
     </head>
     <body>
@@ -130,7 +144,9 @@
               </div>
           </div>
           <div class="artright">
-            <img class="image" src="hand.jpg" width="100%" height="100%">
+            <div class="img-container">
+            <img id="image" src="hand.jpg" width="100%" height="100%">
+            </div>
               <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click me</button>
               <div id="demo" class="collapse">
                 <div class="card-body">
@@ -228,11 +244,6 @@
                   </div>
                 </div>
             </div>
-            <script>
-              /* Initiate Magnify Function
-              with the id of the image, and the strength of the magnifier glass:*/
-              magnify("image", 3);
-              </script>
       </div>
     </body>
 </html>
