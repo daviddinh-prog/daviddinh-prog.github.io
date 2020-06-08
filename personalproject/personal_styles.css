@@ -69,19 +69,23 @@ body {
 
 .img1 {
   float: right;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
-.clearfix {
-  overflow: auto;
+/* make picture fit inside div container */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .img2 {
   float: left;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 /* Create two equal columns that floats next to each other */
+
 .artleft {
   float: left;
   width: 45%;
@@ -109,7 +113,7 @@ body {
 }
 
 .card-title {
-    color: rgb(34, 32, 134);
+    color: rgb(34, 32, 134); /* style h1 heading in card */
 }
 
   .thumbnail {
