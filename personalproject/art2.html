@@ -34,9 +34,9 @@
         </style>
         <script>
           /* magnify hover */
-          function magnify(imgID, zoom) {
+          function magnify(element, zoom) {
             var img, glass, w, h, bw;
-            img = document.getElementById(imgID);
+            img = element;
             /*create magnifier glass:*/
             glass = document.createElement("DIV");
             glass.setAttribute("class", "img-container-glass");
@@ -231,11 +231,21 @@
                   </div>
                 </div>
             </div>
-          <script>
-            /* Initiate Magnify Function
-            with the id of the image, and the strength of the magnifier glass:*/
-            magnify("image", 3);
-          </script>
+            <script>
+              var images = document.querySelectorAll(".img-container img");
+              var image;
+              for(var i = 0; i < images.length; i++) {
+                image = images[i];
+                if(image.complete) {
+                  magnify(image, 3);
+                } else {
+                  image.addEventListener("load", enableMagnify, false);
+                }
+              }
+              function enableMagnify(e) {
+                magnify(e.currentTarget, 3);
+              }
+            </script>
       </div>
     </body>
 </html>
