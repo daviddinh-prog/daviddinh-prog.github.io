@@ -150,3 +150,19 @@ body {
     margin-top: 20px; /* spacing from img */
     font-size: 1.2em;
   }
+
+* {box-sizing: border-box;}
+
+.img-container {
+  position: relative;
+}
+
+.img-container-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
