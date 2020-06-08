@@ -58,18 +58,12 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     padding: 20px;
-    max-width: auto;
-    display: block;
+    display: block; /* fill page excluding sidebar and margins */ 
 }
 
 .main {
     margin-left: 200px;
     padding: 0px 10px;
-}
-
-.img1 {
-  float: right;
-  margin-left: 20px;
 }
 
 /* make picture fit inside div container */
@@ -79,14 +73,25 @@ body {
   display: table;
 }
 
+/* placement of pictures in div containers */
+.img1 {
+  float: right;
+  margin-left: 20px;
+}
+
 .img2 {
   float: left;
   margin-right: 20px;
 }
 
-/* Create two equal columns that floats next to each other */
+/* colored banner spanning h1 headings in bio webpage */ 
+.biohead {
+  display: flex;
+  background-color: rgb(145, 252, 243);
+}
 
-.artleft {
+/* Create two equal columns that floats next to each other */
+.artleft { /* left columns */
   float: left;
   width: 45%;
   margin-left: 20px;
@@ -99,7 +104,7 @@ body {
   position: relative;
 }
 
-.artright {
+.artright { /* right columns */
   float: right;
   width: 45%;
   margin-left: 20px;
@@ -137,6 +142,7 @@ body {
     display: block;
   }
 
+  /* style click me button */
   .btn-primary {
     margin-top: 20px;
     font-size: 1.2em;
