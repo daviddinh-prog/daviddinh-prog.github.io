@@ -168,7 +168,7 @@ body {
   opacity:0;
   pointer-events:none;
 }
-a:hover .img-container-glass{
+.img-container-glass:hover{
   opacity:1;
   pointer-events:initial;
 }
