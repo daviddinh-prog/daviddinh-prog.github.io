@@ -146,7 +146,7 @@ body {
   }
 
   /* style click me button */
-  #btn-primary {
+  .btn-primary {
     margin-top: 20px; /* spacing from img */
     font-size: 1.2em;
   }
