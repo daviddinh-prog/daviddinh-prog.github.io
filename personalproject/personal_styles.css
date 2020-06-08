@@ -11,39 +11,39 @@ body {
     margin: 0;
 }
 
+/* sidebar styling */
 .sidenav {
     background-color: black;
-    display: block;
+    display: block; /* fill width */
     text-decoration: none;
     width: 200px;
     float: left;
     flex-direction: column;
     margin: 0;
-    height: 100%;
-    display: block;
-    position: fixed;
-    padding-top: 15px;
+    height: 100%; /* spans browser window */
+    position: fixed; /* freezes while scrolling */
+    padding-top: 15px; /* spacing for logo and name */
 }
 
+/* button styling */
 .vertical-menu {
     width: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    position: fixed;
+    position: fixed; /* freezes while scrolling */
   }
   .vertical-menu a {
     background-color: black;
     color: white;
     padding: 15px;
-    display: block;
-    text-decoration: none;
+    display: block; /* fill width */
     margin: 0;
   }
   .vertical-menu a:hover {
     background-color: rgb(81, 161, 253);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease; /* animation fade in */
     color: black;
   }
   .vertical-menu a.active {
@@ -70,7 +70,7 @@ body {
 .clearfix::after {
   content: "";
   clear: both;
-  display: table;
+  display: table; /* text and img act as neighboring columns */
 }
 
 /* placement of pictures in div containers */
@@ -86,7 +86,7 @@ body {
 
 /* colored banner spanning h1 headings in bio webpage */ 
 .biohead {
-  display: flex;
+  display: flex; /* banner spans div */
   background-color: rgb(145, 252, 243);
   text-align: center;
   padding: 10px;
@@ -130,6 +130,7 @@ body {
     box-shadow: 0 0 2px 1px rgba(1, 82, 109, 0.5); /* dark blue shadow */
   }
 
+  /* div containers for homepage and story and bio webpage */
   .desc-container {
     margin-left: 40px;
     margin-right: 40px;
@@ -139,13 +140,13 @@ body {
     border: 6px solid white;
     background-color: rgba(140, 222, 255, 0.884);
     width: auto;
-    float: center;
+    float: center; /* align center of webpage */
     font-size: 1.2em;
-    display: block;
+    display: block; /* fill page excluding sidebar and margins */
   }
 
   /* style click me button */
   .btn-primary {
-    margin-top: 20px;
+    margin-top: 20px; /* spacing from img */
     font-size: 1.2em;
   }
