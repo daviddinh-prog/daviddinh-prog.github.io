@@ -88,6 +88,8 @@ body {
 .biohead {
   display: flex;
   background-color: rgb(145, 252, 243);
+  text-align: center;
+  padding: 10px;
 }
 
 /* Create two equal columns that floats next to each other */
