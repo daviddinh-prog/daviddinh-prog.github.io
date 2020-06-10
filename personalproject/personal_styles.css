@@ -44,11 +44,9 @@ body {
   .vertical-menu a:hover {
     background-color: rgb(81, 161, 253);
     transition: all 0.3s ease; /* animation fade in */
-    color: black;
   }
   .vertical-menu a.active {
     background-color: rgb(78, 231, 167);
-    color: black;
   }
 
 .jumbotron {
@@ -183,7 +181,6 @@ body {
   }
 
   .fa-envelope-o {
-    background: #53ddff;
+    background: #41d9ff;
     color: white;
-    margin: 0 auto;
   }
