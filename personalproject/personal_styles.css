@@ -163,7 +163,7 @@ body {
     height: 55px;
     text-align: center;
     text-decoration: none;
-    margin: 2px;
+    margin: 5px;
     border-radius: 50%;
     transition: all 0.3s ease;
   }
@@ -183,7 +183,7 @@ body {
   }
 
   .fa-envelope-o {
-    background: #ff74ff;
+    background: #53ddff;
     color: white;
     margin: 0 auto;
   }
