@@ -85,7 +85,7 @@ body {
 /* colored banner spanning h1 headings in bio webpage */ 
 .biohead {
   display: flex; /* banner spans div */
-  background-color: rgb(145, 252, 243);
+  background-color: rgb(160, 255, 247);
   float: center;
   padding: 10px;
 }
