@@ -86,7 +86,7 @@ body {
 .biohead {
   display: flex; /* banner spans div */
   background-color: rgb(145, 252, 243);
-  text-align: center;
+  float: center;
   padding: 10px;
 }
 
